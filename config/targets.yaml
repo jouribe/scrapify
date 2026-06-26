@@ -1,0 +1,117 @@
+companies:
+  - name: BBVA Perú
+    slug: bbva-peru
+    handles:
+      facebook: https://www.facebook.com/bbvaenperu
+      instagram: https://www.instagram.com/bbva_peru
+      tiktok: https://www.tiktok.com/@bbvaenperu
+      linkedin: https://www.linkedin.com/company/bbva-peru
+  - name: BCP
+    slug: bcp
+    handles:
+      facebook: https://www.facebook.com/bancodecreditobcp
+      instagram: https://www.instagram.com/bcpbancodecredito
+      tiktok: https://www.tiktok.com/@bcpbancodecredito
+      linkedin: https://www.linkedin.com/company/banco-de-credito-bcp
+  - name: Caja Arequipa
+    slug: caja-arequipa
+    handles:
+      facebook: https://www.facebook.com/caja.arequipa
+      instagram: https://www.instagram.com/caja_arequipa_oficial
+      tiktok: https://www.tiktok.com/@caja.arequipa
+      linkedin: https://www.linkedin.com/company/caja-arequipa
+  - name: Caja Huancayo
+    slug: caja-huancayo
+    handles:
+      facebook: https://www.facebook.com/CajaHuancayo
+      instagram: https://www.instagram.com/caja_huancayo
+      tiktok: https://www.tiktok.com/@cajahuancayo
+      linkedin: https://www.linkedin.com/company/caja-huancayo
+  - name: Caja Ica
+    slug: caja-ica
+    handles:
+      facebook: https://www.facebook.com/CajaMunicipalIca
+      instagram: https://www.instagram.com/caja.ica
+      tiktok: https://www.tiktok.com/@caja.ica
+      linkedin: https://www.linkedin.com/company/caja-ica
+  - name: Caja Piura
+    slug: caja-piura
+    handles:
+      facebook: https://www.facebook.com/CajaPiura
+      instagram: https://www.instagram.com/caja_piura
+      tiktok: https://www.tiktok.com/@caja.piura
+      linkedin: https://www.linkedin.com/company/caja-piura
+  - name: Caja Trujillo
+    slug: caja-trujillo
+    handles:
+      facebook: https://www.facebook.com/CajaTrujilloOficial
+      instagram: https://www.instagram.com/cajatrujillo
+      tiktok: https://www.tiktok.com/@cajatrujillo
+      linkedin: https://www.linkedin.com/company/caja-trujillo
+  - name: Compartamos Financiera
+    slug: compartamos-financiera
+    handles:
+      facebook: https://www.facebook.com/compartamosbancoperu
+      instagram: https://www.instagram.com/compartamosbancoperu
+      tiktok: https://www.tiktok.com/@compartamosbancoperu
+      linkedin: https://www.linkedin.com/company/compartamosbancoperu
+  - name: Delice
+    slug: delice
+    handles:
+      instagram: https://www.instagram.com/delice_peru
+      tiktok: https://www.tiktok.com/@delice_peru
+      youtube: https://www.youtube.com/@DelicePeru
+  - name: Entel Peru
+    slug: entel-peru
+    handles:
+      facebook: https://www.facebook.com/EntelPeru
+      instagram: https://www.instagram.com/entel_peru
+      tiktok: https://www.tiktok.com/@entel_peru
+      linkedin: https://www.linkedin.com/company/entel-per%C3%BA
+  - name: Mecánico Perú
+    slug: mecanico-peru
+    handles:
+      facebook: https://www.facebook.com/mecanico_peru
+      instagram: https://www.instagram.com/mecanico_peru
+      tiktok: https://www.tiktok.com/@mecanicoperu
+  - name: Gloria
+    slug: gloria
+    handles:
+      facebook: https://www.facebook.com/GloriaPeru
+      instagram: https://www.instagram.com/gloria_peru
+      tiktok: https://www.tiktok.com/@gloria_peru
+      linkedin: https://www.linkedin.com/company/gloria-peru
+  - name: Interbank
+    slug: interbank
+    handles:
+      facebook: https://www.facebook.com/InterbankPeru
+      instagram: https://www.instagram.com/interbank
+      tiktok: https://www.tiktok.com/@interbankpe
+      linkedin: https://www.linkedin.com/company/interbank
+  - name: Mibanco
+    slug: mibanco
+    handles:
+      facebook: https://www.facebook.com/MibancoOficial
+      instagram: https://www.instagram.com/mibancope
+      tiktok: https://www.tiktok.com/@mibancope
+      linkedin: https://www.linkedin.com/company/mibanco-peru
+  - name: Scotiabank Perú
+    slug: scotiabank-peru
+    handles:
+      facebook: https://www.facebook.com/ScotiabankPE
+      instagram: https://www.instagram.com/scotiabankpe
+      tiktok: https://www.tiktok.com/@scotiabankpe
+      linkedin: https://www.linkedin.com/company/scotiabank
+  - name: Tesla Perú
+    slug: tesla-peru
+    handles:
+      facebook: https://www.facebook.com/tesla
+      instagram: https://www.instagram.com/tesla
+      tiktok: https://www.tiktok.com/@tesla
+  - name: Yape
+    slug: yape
+    handles:
+      facebook: https://www.facebook.com/yapeoficial
+      instagram: https://www.instagram.com/yapeoficial
+      tiktok: https://www.tiktok.com/@yapeoficial
+      linkedin: https://pe.linkedin.com/company/yapeoficial

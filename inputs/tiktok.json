@@ -1,0 +1,21 @@
+{
+  "profiles": [],
+  "resultsPerPage": 200,
+  "profileScrapeSections": [
+    "videos"
+  ],
+  "profileSorting": "latest",
+  "excludePinnedPosts": false,
+  "searchSection": "",
+  "maxProfilesPerQuery": 10,
+  "searchSorting": "0",
+  "searchDatePosted": "0",
+  "scrapeRelatedVideos": false,
+  "shouldDownloadVideos": false,
+  "shouldDownloadCovers": false,
+  "shouldDownloadSlideshowImages": false,
+  "shouldDownloadAvatars": false,
+  "shouldDownloadMusicCovers": false,
+  "downloadSubtitlesOptions": "NEVER_DOWNLOAD_SUBTITLES",
+  "proxyCountryCode": "None"
+}
