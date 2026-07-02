@@ -495,9 +495,11 @@ class Pipeline:
             len(items),
         )
 
-        company_by_slug: dict[str, CompanyTarget] = {
-            self._normalize_linkedin_slug(c.handles.linkedin): c for c in self.targets.companies
-        }
+        company_by_slug: dict[str, CompanyTarget] = {}
+        for company in self.targets.companies:
+            slug = self._normalize_linkedin_slug(company.handles.linkedin)
+            if slug:
+                company_by_slug[slug] = company
 
         groups: dict[str, list[dict[str, Any]]] = {}
         unmatched_count = 0
@@ -753,10 +755,15 @@ class Pipeline:
         }
 
     @staticmethod
-    def _normalize_linkedin_slug(handle: str) -> str:
-        if "linkedin.com/company/" in handle:
-            return handle.rstrip("/").split("/company/")[-1].lower()
-        return handle.lstrip("/").lower()
+    def _normalize_linkedin_slug(handle: str | None) -> str | None:
+        if not isinstance(handle, str):
+            return None
+        normalized = handle.strip()
+        if not normalized:
+            return None
+        if "linkedin.com/company/" in normalized:
+            return normalized.rstrip("/").split("/company/")[-1].lower()
+        return normalized.lstrip("/").lower()
 
     @staticmethod
     def _detect_linkedin_company_slug(

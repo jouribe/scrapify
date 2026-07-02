@@ -62,3 +62,9 @@ def test_detect_company_slug_for_platform_by_youtube_channel_url() -> None:
     pipeline = _build_pipeline()
     item = {"channelUrl": "https://www.youtube.com/@DelicePeru/videos"}
     assert pipeline._detect_company_slug_for_platform(item, "youtube") == "delice"
+
+
+def test_normalize_linkedin_slug_handles_none_and_blank() -> None:
+    pipeline = _build_pipeline()
+    assert pipeline._normalize_linkedin_slug(None) is None
+    assert pipeline._normalize_linkedin_slug("   ") is None
